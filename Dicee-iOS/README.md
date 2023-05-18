@@ -5,7 +5,7 @@
 The objective of this project is to introduce to the core programming concepts that will form the foundation of most of the apps we’ll build in the future. This app will have a lot of important programming knowledge, while building a neat dice app.
 
 ## What's in the app
-[![Watch the video](Documentation/SimulatorScreenshotiPhone14_Pro.png)](Documentation/ScreenRecordingiPhone_14_Pro.mp4)
+[![Watch the video](Documentation/Roll.gif)](Documentation/ScreenRecordingiPhone_14_Pro.mp4)
 I'am going to make a Las Vegas dice app. You can make the die roll at the press of a button or by shaking your phone. With this app in your pocket, you’ll be fully set up to settle any score on the go!
 
 
