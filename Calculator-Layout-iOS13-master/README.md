@@ -4,9 +4,9 @@ This calculator app was developed using Swift and relies on the power of constra
 
 ## Portrait
 
-![Portrait](Documentation/Portrait.png =100*200)
+<img src="Documentation/Portrait.png" alt="" width="200px" />
 
 ## Landscape
-![Landscape](Documentation/Landscape.png =100*200)
+<img src="Documentation/Landscape.png" alt="" width="200px" />
 
 TThis repository contains a calculator app implemented in Swift that incorporates various constraints to enhance the user experience and ensure proper functionality. The calculator app is not allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division this is for only design perpose.
