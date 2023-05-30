@@ -18,6 +18,8 @@
 		014E6BA82A16AA5500D3C790 /* DigiPlaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E6BA72A16AA5500D3C790 /* DigiPlaceUITestsLaunchTests.swift */; };
 		014E6BB52A19422A00D3C790 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E6BB42A19422A00D3C790 /* LoginViewController.swift */; };
 		014E6BB82A19429000D3C790 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E6BB72A19429000D3C790 /* SignUpViewController.swift */; };
+		01C056112A254037002C8DBB /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0560F2A254037002C8DBB /* PropertyTableViewCell.swift */; };
+		01C056122A254037002C8DBB /* PropertyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C056102A254037002C8DBB /* PropertyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		014E6BA72A16AA5500D3C790 /* DigiPlaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiPlaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		014E6BB42A19422A00D3C790 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		014E6BB72A19429000D3C790 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		01C0560F2A254037002C8DBB /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		01C056102A254037002C8DBB /* PropertyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,10 @@
 		014E6B832A16AA5400D3C790 /* DigiPlace */ = {
 			isa = PBXGroup;
 			children = (
+				01C0560E2A253FD0002C8DBB /* View */,
 				014E6BB62A19425900D3C790 /* Controller */,
 				014E6B842A16AA5400D3C790 /* AppDelegate.swift */,
 				014E6B862A16AA5400D3C790 /* SceneDelegate.swift */,
-				014E6B8A2A16AA5400D3C790 /* Main.storyboard */,
 				014E6B8D2A16AA5500D3C790 /* Assets.xcassets */,
 				014E6B8F2A16AA5500D3C790 /* LaunchScreen.storyboard */,
 				014E6B922A16AA5500D3C790 /* Info.plist */,
@@ -139,6 +143,16 @@
 				014E6BB72A19429000D3C790 /* SignUpViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		01C0560E2A253FD0002C8DBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				014E6B8A2A16AA5400D3C790 /* Main.storyboard */,
+				01C0560F2A254037002C8DBB /* PropertyTableViewCell.swift */,
+				01C056102A254037002C8DBB /* PropertyTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +261,7 @@
 			files = (
 				014E6B912A16AA5500D3C790 /* LaunchScreen.storyboard in Resources */,
 				014E6B8E2A16AA5500D3C790 /* Assets.xcassets in Resources */,
+				01C056122A254037002C8DBB /* PropertyTableViewCell.xib in Resources */,
 				014E6B8C2A16AA5400D3C790 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +289,7 @@
 			files = (
 				014E6BB52A19422A00D3C790 /* LoginViewController.swift in Sources */,
 				014E6B892A16AA5400D3C790 /* ViewController.swift in Sources */,
+				01C056112A254037002C8DBB /* PropertyTableViewCell.swift in Sources */,
 				014E6B852A16AA5400D3C790 /* AppDelegate.swift in Sources */,
 				014E6B872A16AA5400D3C790 /* SceneDelegate.swift in Sources */,
 				014E6BB82A19429000D3C790 /* SignUpViewController.swift in Sources */,
