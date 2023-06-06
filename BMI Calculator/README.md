@@ -7,7 +7,7 @@ The goal of this tutorial is to learn more about Optionals, solidify the underst
 
 
 ## Home Screen
-<img src="Documentation/Screenshot1.png" alt="Screenshoot1" width="200px" />
+<img src="Documentation/Screenshot1.png" alt="Screenshoot2" width="200px" />
 
 ## Three different view of Bmi value
 <img src="Documentation/Screenshot2.png" alt="Screenshoot2" width="200px" />
@@ -23,4 +23,3 @@ The goal of this tutorial is to learn more about Optionals, solidify the underst
 * Pass by value vs. pass by reference.
 * Formatting Strings.
 * Color literals.
-
